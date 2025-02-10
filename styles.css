@@ -1,134 +1,81 @@
 body {
-            font-family: Arial, sans-serif;
-            background-color: #f6f4f3; /* Color de fondo */
-            color: #3e2b20; /* Café oscuro */
-            margin: 0;
-            padding: 0;
-        }
-
-        header {
-            background-color: #a99e8e; /* Café claro más oscuro */
-            padding: 15px;
-            text-align: center;
-        }
-
-        nav {
-            margin: 20px 0;
-            text-align: center; /* Centrar links */
-        }
-
-        nav a {
-            margin: 0 15px;
-            text-decoration: none;
-            color: #3e2b20; /* Café oscuro */
-            font-weight: bold;
-            transition: background-color 0.3s;
-            padding: 5px 10px; /* Espacio alrededor del enlace */
-        }
-
-        nav a:hover {
-            background-color: #d0c3b0; /* Color de fondo al pasar el mouse */
-        }
-
-        nav hr {
-            border: 0;
-            height: 1px;
-            background-color: #3e2b20; /* Línea de separación */
-            margin: 10px 0;
-        }
-
-        .container {
-            max-width: 1000px;
-            margin: auto;
-            padding: 20px;
-            text-align: center; /* Centrar texto */
-        }
-
-        .slogan {
-            font-size: 24px;
-            font-weight: bold;
-            margin: 20px 0;
-        }
-
-        .welcome {
-            margin: 20px 0;
-            font-size: 18px;
-        }
-
-        .offer {
-            margin: 30px 0;
-            font-size: 20px;
-            font-weight: bold;
-            color: #4b3c28; /* Café oscuro más fuerte */
-        }
-
-        .gallery, .testimonials, .newsletter {
-            margin: 40px 0;
-            text-align: left; /* Alinear el texto a la izquierda */
-        }
-
-        .gallery h3, .testimonials h3, .newsletter h3 {
-            font-size: 20px;
-            margin-bottom: 20px;
-            color: #3e2b20; /* Café oscuro */
-        }
-
-        .gallery-grid, .testimonials-grid {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-        }
-
-        .product, .testimonial {
-            border: 1px solid #d1cfcf; /* Borde gris claro */
-            border-radius: 8px;
-            padding: 10px;
-            margin: 10px;
-            flex: 1 1 30%; /* Ocupa 30% del ancho */
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra suave */
-        }
-
-        .product img {
-            max-width: 100%; /* Mantener la imagen dentro del contenedor */
-            border-radius: 5px; /* Bordes redondeados para imágenes */
-        }
-
-        .newsletter form {
-            display: flex;
-            justify-content: center; /* Centrar el formulario */
-            margin-top: 20px;
-        }
-
-        .newsletter input[type="email"] {
-            padding: 10px;
-            border: 1px solid #3e2b20; /* Café oscuro */
-            border-radius: 5px;
-            width: 250px; /* Ancho fijo */
-        }
-
-        .newsletter button {
-            padding: 10px 15px;
-            background-color: #a99e8e; /* Café claro más oscuro */
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            margin-left: 10px; /* Espacio entre el input y el botón */
-        }
-
-        footer {
-            margin-top: 40px;
-            text-align: center;
-            padding: 20px;
-            background-color: #eaeaea; /* Fondo gris claro */
-        }
-
-        @media (max-width: 768px) {
-            .product, .testimonial {
-                flex: 1 1 100%; /* Full width on smaller screens */
-            }
-
-            .newsletter input[type="email"] {
-                width: 100%; /* Full width on smaller screens */
-            }
-        }
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #35577D;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #35577D;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+  }
+  
+  nav hr {
+    margin-top: 10px;
+  }
+  
+  .container {
+    padding: 20px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .gallery {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  .gallery-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .product {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(33.333% - 40px);
+  }
+  
+  .product img {
+    max-width: 100%;
+    border-radius: 4px;
+  }
+  
+  .product p {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .newsletter {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #35577D;
+    color: white;
+  }
+  
